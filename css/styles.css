@@ -30,7 +30,7 @@ h1 {
   font-size: 1.25rem;
   font-weight: 700;
   color: var(--clr-primary-01);
-  margin-bottom: 0.65rem;
+  margin-bottom: 1rem;
 }
 
 h2 {
@@ -53,7 +53,7 @@ p {
 }
 
 .global_container {
-  padding: 2rem;
+  padding: 1.8rem;
 }
 
 .container-1 {
@@ -64,7 +64,6 @@ p {
   color: var(--clr-neutral-02);
   letter-spacing: 0.7px;
   line-height: 1.8;
-  margin-bottom: 0.65rem;
 }
 
 .container p strong {
@@ -78,7 +77,6 @@ p {
 
 .container-2 p {
   color: var(--clr-neutral-03);
-  margin-top: 0.75rem;
 }
 
 .pricetag {
@@ -93,6 +91,7 @@ p {
 
 .dollar {
   font-size: 2rem;
+  font-weight: 700;
   opacity: 1;
 }
 
@@ -135,22 +134,22 @@ li a {
 /* Media Query */
 @media screen and (min-width: 475px) {
   .wrapper {
+    background-color: var(--clr-neutral-01);
     display: flex;
     align-items: center;
     height: 100vh;
   }
   .container {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 40% 1fr;
     grid-template-areas:
       'container-1 container-1'
       'container-2 container-3';
     height: auto;
     max-width: 635px;
     margin: 0 auto;
-    border: 1px solid --(var(--clr-primary-02));
-    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
-    border-radius: 8px;
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.2);
+    border-radius: 20px;
   }
   .container-1 {
     grid-area: container-1;
