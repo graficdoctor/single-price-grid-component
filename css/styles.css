@@ -154,7 +154,7 @@ li a {
   }
   .container {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 40% 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas:
       'container-1 container-1'
       'container-2 container-3';
